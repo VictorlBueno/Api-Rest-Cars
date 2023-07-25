@@ -3,12 +3,12 @@
 <p>Desenvolvi o projeto seguindo os princípios SOLID, que promovem a criação de código mais modular, flexível e de fácil manutenção, buscando separar responsabilidades e tornar o sistema mais escalável.</p>
 
 ### Índice
-* [Como iniciar a aplicação](#Como-iniciar-a-aplicação)
-* [Requisições](#Requisições)
-* [Tecnologias utilizadas](#Tecnologias-utilizadas)
-  * [Nodemon](#Nodemon)
-  * [Express](#Express)
-  * [ESLint](#ESLint)
+* [Como iniciar a aplicação](#como-iniciar-a-aplicação)
+* [Requisições](#requisições)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+  * [Nodemon](#nodemon)
+  * [Express](#express)
+  * [ESLint](#eslint)
 <br>
 
 ## Como iniciar a aplicação
@@ -39,3 +39,9 @@ O Express é uma framework leve que oferece uma camada fina de recursos fundamen
 
 #### ESLint
 O ESLint é uma ferramenta para padronizar o código JavaScript, definindo regras como aspas e ponto e vírgula. Ele ajuda a manter a consistência e identificar problemas no código.
+
+#
+<h6>Links&ensp;&ensp;&ensp;&ensp;
+<a href="https://linkedin.com/in/victorlbueno/" target="_blank">LinkedIn</a>&ensp;&ensp;•&ensp;&ensp;
+<a href="https://victor.com.de/" target="_blank">Website</a>&ensp;&ensp;•&ensp;&ensp;
+<a href="https://instagram.com/victorlbueno" target="_blank">Instagram</a></h6>
