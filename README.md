@@ -17,10 +17,10 @@
 O projeto poderá ser acessado através do endereço http://localhost:3000/
 <ol>
   <li>Crie uma pasta para o projeto no seu computador e navegue até ela no terminal</li>
-  <li>Ainda no terminal, importe este projeto utilizando: <code>git clone https://github.com/VictorlBueno/Api-Rest-Cars</code></li>
-  <li>Navegue até o projeto clonado com: <code>cd Api-Rest-Cars</code>
-  <li>Instale as dependências do projeto com o comando: <code>npm install</code></li>
-  <li>Inicie o projeto com o comando: <code>npm run dev</code></li>
+  <li>Ainda no terminal, importe este projeto utilizando <code>git clone https://github.com/VictorlBueno/Api-Rest-Cars</code></li>
+  <li>Navegue até o projeto clonado com <code>cd Api-Rest-Cars</code>
+  <li>Instale as dependências do projeto com o comando <code>npm install</code></li>
+  <li>Inicie o projeto com o comando <code>npm run dev</code></li>
 </ol>
 <br>
 
@@ -52,7 +52,7 @@ O projeto poderá ser acessado através do endereço http://localhost:3000/
 <p>Adotei o ESLint para aplicar padrões de formatação ao código JavaScript, incluindo regras para aspas e ponto e vírgula, garantindo uma base consistente. Essa ferramenta também é útil para identificar e corrigir problemas no código, aprimorando a qualidade e a legibilidade do projeto.</p>
 
 #### MongoDB
-<p>Utilizei o MongoDB para implementar o armazenamento de logs utilizando uma abordagem NoSQL, o que proporciona maior flexibilidade e escalabilidade ao gerenciar os registros de forma eficiente.</p>
+<p>Utilizei o MongoDB com a biblioteca Mongoose para armazenar logs em uma abordagem NoSQL. Essa escolha proporcionou maior flexibilidade e escalabilidade na gestão dos registros. O MongoDB permitiu a estruturação dos dados em formato JSON-like, simplificando a interação com os dados no Node.js.</p>
 
 #### Axios
 <p>Para consumir uma API externa, optei por utilizar o axios, uma biblioteca JavaScript baseada em Promises, que simplifica as solicitações HTTP.</p>
