@@ -9,6 +9,8 @@
   * [Nodemon](#nodemon)
   * [Express](#express)
   * [ESLint](#eslint)
+  * [MongoDB](#mongodb)
+  * [Axios](#axios)
 <br>
 
 ## Como iniciar a aplicação
@@ -31,14 +33,30 @@ O projeto poderá ser acessado através do endereço http://localhost:3000/
 <br>
 
 ## Tecnologias utilizadas
+
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 #### Nodemon
-O Nodemon é uma ferramenta que atualiza automaticamente o servidor Node.js a cada modificação no código-fonte, agilizando o desenvolvimento.
+<p>Para agilizar o desenvolvimento, empreguei o Nodemon, uma ferramenta que automatiza a atualização do servidor Node.js a cada alteração no código-fonte.</p>
 
 #### Express
-O Express é uma framework leve que oferece uma camada fina de recursos fundamentais para o desenvolvimento de aplicativos web, sem comprometer ou ocultar as funcionalidades do Node.js.
+<p>Optei por utilizar o Express, um framework leve que proporciona uma camada fina de recursos essenciais para o desenvolvimento de aplicações web. O Express complementa o Node.js, permitindo criar aplicativos web de forma eficiente, mantendo a transparência e o acesso às funcionalidades do Node.js em todo o processo de desenvolvimento.</p>
 
 #### ESLint
-O ESLint é uma ferramenta para padronizar o código JavaScript, definindo regras como aspas e ponto e vírgula. Ele ajuda a manter a consistência e identificar problemas no código.
+<p>Adotei o ESLint para aplicar padrões de formatação ao código JavaScript, incluindo regras para aspas e ponto e vírgula, garantindo uma base consistente. Essa ferramenta também é útil para identificar e corrigir problemas no código, aprimorando a qualidade e a legibilidade do projeto.</p>
+
+#### MongoDB
+<p>Utilizei o MongoDB para implementar o armazenamento de logs utilizando uma abordagem NoSQL, o que proporciona maior flexibilidade e escalabilidade ao gerenciar os registros de forma eficiente.</p>
+
+#### Axios
+<p>Para consumir uma API externa, optei por utilizar o axios, uma biblioteca JavaScript baseada em Promises, que simplifica as solicitações HTTP.</p>
 
 #
 <h6>Links&ensp;&ensp;&ensp;&ensp;
