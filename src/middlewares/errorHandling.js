@@ -1,3 +1,4 @@
+import badRequest from '../errors/badRequest.js'
 import baseError from '../errors/baseError.js'
 import notFound from '../errors/notFound.js'
 
@@ -8,7 +9,11 @@ function errorHandling(error, req, res, next) {
     if (error instanceof notFound) {
         error.sendResponse(res)
 
-    // If it's not a 'notFound' error, send a generic error response
+    // Send the error received in cases of 'bad request'
+    } else if (error.response && error.response.status === 400) {
+        new badRequest(error, res)
+
+    // If it's not a 'not found' or 'bad request' error, send a generic error response
     } else {
         new baseError().sendResponse(res)
     }
